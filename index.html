@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microsoft - Cloud,computer, Apps ;Gaming</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <div class="navbar flex justify-between items-center p-4">
-      <div class="flex">
-        <div class="hamburger  inline-block p-4 cursor-pointer">
-            <div class="line h-0.5 w-6 my-1 bg-black "></div>
-            <div class="line h-0.5 w-6 my-1 bg-black "></div>
-            <div class="line h-0.5 w-6 my-1  bg-black  "></div>
+      <div class="flex justify-center items-center md:order-2">
+        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
         </div>
-        <div class="search ">Search</div>
+        <div class="search md:hidden">search</div>
       </div>
-        <div class="logo">Microsoft</div>
-        <div class="Cart"> Cart Account</div>
+      <div class="logo text-center md:order-1 flex">
+        <div>Microsoft</div>
+        <div
+          class="features absolute md:static w-fit md:w-auto top-0 bottom-0 inset-0 md:flex bg-gray-200 md:bg-white md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0"
+        >
+          <div class="fitem">Microsoft 365</div>
+
+          <div class="fitem">Copilot</div>
+          <div class="fitem">Windows</div>
+          <div class="fitem">Surface</div>
+          <div class="fitem">Xbox</div>
+          <div class="fitem">Support</div>
+        </div>
+      </div>
+      <div class="Cart md:order-3 flex">
+        <div class="search hidden md:block">All microsoft search</div>
+        <div>Cart Account</div>
+      </div>
     </div>
-</body>
+    <div class="slider  flex flex-col-reverse md:flex-row bg-gray-400 ">
+        <div class="left">
+            <h1 class="text-4xl">Surface Laptop 4</h1>
+        </div>
+        <div class="right">
+            <img src="right-2.avif" alt="">
+        </div>
+            
+    </div>
+  </body>
 </html>
