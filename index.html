@@ -15,12 +15,16 @@
             <div class="line h-0.5 w-6 my-1 bg-black"></div>
             <div class="line h-0.5 w-6 my-1 bg-black"></div>
           </div>
-          <div class="search md:hidden">Search</div>
+          <div class="search md:hidden w-4">
+            <img src="icons8-search-50.png" alt="" />
+          </div>
         </div>
         <div class="logo text-center md:order-1 flex">
-          <div class="p-4 cursor-pointer"><img src="./logo.png" alt="" /></div>
+          <div class="p-4 cursor-pointer">
+            <img class="w-[50%]" src="./logo.png" alt="" />
+          </div>
           <div
-            class="features absolute md:static w-fit md:w-auto top-0 bottom-0 inset-0 md:flex bg-gray-200 md:bg-white md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0"
+            class="features absolute md:static w-fit md:w-auto top-0 bottom-0 inset-0 md:flex bg-gray-200 md:bg-white md:mx-4 md:space-x-8 -translate-x-96 md:translate-x-0"
           >
             <div class="fitem">Microsoft 365</div>
 
@@ -31,9 +35,14 @@
             <div class="fitem">Support</div>
           </div>
         </div>
-        <div class="Cart md:order-3 flex">
-          <div class="search hidden md:block">All microsoft search</div>
-          <div class="cursor-pointer">Cart Account</div>
+        <div class="Cart md:order-3 flex gap-5">
+          <div class="search md:block flex gap-6 w-4">
+            <img src="icons8-search-50.png" alt="" />
+          </div>
+          <div class="cursor-pointer flex h-4 w-4 mr-4">
+            <img src="icons8-account-50.png" alt="" />
+          </div>
+          <img class="w-5 mr-4" src="shopping-cart.png" alt="" />
         </div>
       </div>
       <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-16">
@@ -57,11 +66,15 @@
           </button>
         </div>
         <div class="right">
-          <img class="w-48 md:w-[64rem]" src="./Surface-Laptop.webp" alt="" />
+          <img
+            class="w-[60rem] md:w-[64rem]"
+            src="./Surface-Laptop.webp"
+            alt=""
+          />
         </div>
       </div>
-      <div class="promo space-y-6  flex flex-col lg:md:flex-row">
-        <div class="item flex items-center mx-4 space-x-2">
+      <div class="promo space-y-6 flex flex-col lg:md:flex-row">
+        <div class="item flex items-center mx-4 mt-6 space-x-2">
           <img class="h-6" src="./914386.png" alt="" />
           <span class="font-medium hover:bg-blue-400 cursor-pointer"
             >Choose your Microsoft 365</span
