@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <div class="container mx-auto">
+
+   
     <div class="navbar flex justify-between items-center p-4">
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
@@ -17,7 +20,7 @@
         <div class="search md:hidden">search</div>
       </div>
       <div class="logo text-center md:order-1 flex">
-        <div>Microsoft</div>
+        <div class="p-4  "><img src="./logo.png" alt="" /></div>
         <div
           class="features absolute md:static w-fit md:w-auto top-0 bottom-0 inset-0 md:flex bg-gray-200 md:bg-white md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0"
         >
@@ -35,15 +38,28 @@
         <div>Cart Account</div>
       </div>
     </div>
-    <div class="slider flex flex-col-reverse md:flex-row bg-[#e8e8e8]">
-      <div class="left flex flex-col justify-center ">
-        <h1 class="text-4xl mx-5 font-mullish font-semibold font-sans">Meet Surface Laptop</h1>
-        <p class="font-mullish font-bold">This laptop's unrivalled flexibility and AI features like Live Captions and Cocreator, enable you to do more than you ever imagined.
-            Learn more.</p>
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-16">
+      <div
+        class="left flex flex-col justify-center items-center md:items-baseline py-12"
+      >
+        <h1
+          class="text-2xl md:text-4xl mx-5 font-mullish font-semibold font-sans"
+        >
+          Meet Surface Laptop
+        </h1>
+        <p class="font-mullish font-bold mx-5 text-center md:text-left">
+          This laptop's unrivalled flexibility and AI features like Live
+          Captions and Cocreator, enable you to do more than you ever imagined.
+          Learn more.
+        </p>
+        <button class="text-white bg-black font-bold px-4 py-2 my-6 mx-5">
+          Shop Now
+        </button>
       </div>
       <div class="right">
-        <img src="right-2.avif" alt="" />
+        <img class="w-48 md:w-[64rem]" src="./Surface-Laptop.webp" alt="" />
       </div>
     </div>
+</div>
   </body>
 </html>
